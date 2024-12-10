@@ -10,7 +10,6 @@ class ScoreBoard(Turtle):
         self.goto(0,270)
         self.right_score=0
         self.left_score=0
-
         self.update_score()
 
 
@@ -29,7 +28,6 @@ class ScoreBoard(Turtle):
 
     def reset_score(self):
         self.right_score = 0
-
         self.left_score = 0
 
     def  game_over(self, winner):
